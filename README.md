@@ -1,9 +1,6 @@
-## Ayanda's Changes To The System 
-1. Class & File Renaming
-Dashboard → frmHome → Home (final name), matching project's naming convention
-Form1/frmHome (original Welcome screen) → frmWelcome → Welcome (final name)
-Updated all cross-references: Login.cs now opens new Home(), Home.cs logout opens new Welcome(), Program.cs starts on new Welcome()
-
-2. Bug Fixes (unrelated to renaming, found while reading the code)
-Login.cs & Register.cs: replaced hardcoded absolute file path (C:\Users\user\OneDrive...) with a portable path (Path.Combine(Application.StartupPath, "ProjectApdp.txt")) so the app works on any machine, not just the one it was written on
-Register.cs: fixed this.Show() → this.Hide() after successful registration, which was leaving the Register window open on top of the new Login window
+## School App Project
+This app was configured and brought together by a group of  highly ambitious and motivated students of the ICT industry.
+This app begin as something that is done through C# foundations only no ui design no any preventive security measures were installed in it it simply ran the required functions for the user 
+but through our teams innovative dev lead and junior dev the app that you have here was born 
+a whole UI change that now brings what you'd call a react focused style in C#, this change has made our app more easier to use whilst incorporating a sleek and modern 
+## Enjoy and thank you for using the app 
